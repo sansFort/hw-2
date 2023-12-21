@@ -1,68 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body {
-  text-align: center;  
-}
+  <title>Моє резюме</title>
 
-.resume {
-  display: inline-block;
-  max-width: 800px;  
-  border: 1px solid #ccc;
-  padding: 20px;  
-}
+  <style>
+    #resume {
+      width: 800px;
+      margin: 0 auto;
+      border: 5px solid #446d88;
+    }
+    
+    header {
+      display: flex;
+      align-items: center; 
+    }
+    
+    .photo {
+      margin-right: 20px; 
+    }
+    
+    .photo img {
+      width: 150px;
+      border-radius: 50%;
+    }
+  </style>
 
-h1, h2 {
-  border-bottom: 1px solid #ccc;   
-}
-</style>
-
-<title>Резюме</title>
 </head>
 
 <body>
 
-<div class="resume">
+  <div id="resume">
 
-<h1>Іван Петренко</h1>
+    <header>
+      <div class="photo">
+        <img src="https://masterpiecer-images.s3.yandex.net/47b5262b584411eebd1fbeb332dff282:upscaled" alt="">
+      </div>
 
-<h2>Контактна інформація</h2>
+      <div>
+        <h1>Іван Петренко</h1>
+        <p>Адреса: м. Київ, вул. Шевченка, 12, кв. 5</p>
+        <p>Телефон: +380 XX XXX XX XX</p>
+        <a href="https://www.google.com/intl/ru/gmail/about/">ivan.petrenko@example.com</a>
 
-<p>Адреса: вул. Шевченка, 12, кв. 5, м. Київ, 01001</p>
-<p>Телефон: +38 098 123 45 67</p>
-<p>Email: ivan@email.com</p>
+      </div>
+    </header>
 
-<h2>Освіта</h2>
-
-<h3>Київський національний університет</h3>
-<p>Бакалавр комп'ютерних наук, 2018 - 2022</p>   
-
-<h2>Досвід роботи</h2>
-
-<h3>Компанія "Софт"</h3>
-<p>Програміст, 2022 - тепер</p>
-<ul>
-  <li>Розробка веб-додатків</li>
-  <li>Тестування програмного забезпечення</li>
-</ul>
-
-<h3>Компанія "IT"</h3>  
-<p>Стажер-програміст, 2021 (3 місяці)</p>
-<ul>
-  <li>Допомога у розробці сайтів</li> 
-</ul>
-
-<h2>Навички</h2>  
-
-<ul>
-  <li>HTML, CSS</li>
-  <li>JavaScript</li>
-  <li>Python</li>
-  <li>SQL</li>
-</ul>
-
-</div>
+  </div>
 
 </body>
+
 </html>
